@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <template>I have no answer for that.</template>
+  </category>
+</aiml>
+<category>
+    <pattern></pattern>
+    <template></template>
+</category>
+<pattern> hello
+</pattern>
+<template> Hi, what is your name?
+</template>
+<category>
+    <pattern></pattern>
+    <template></template>
+</category>
+<pattern> my name is *</pattern>
+<category>
+
+    <template></template>
+</category>
+<template> hey <star/>, what can i help you with today </template>
+<template>
+    <random>
+        <li>I'm doing great today, thank you!</li>
+        <li>I'm feeling really good today, how about you?</li>
+        <li>Today is a fantastic day, thanks for asking!</li>
+        <li>I'm doing well today, how can I assist you?</li>
+        <li>I'm having a good day, how are you today?</li>
+        <li>I'm fine, thanks for asking. What about you?</li>
+    </random>
+</template>
+<category>
+    <pattern>*</pattern>
+    <template>
+        <random>
+            <li>I'm not sure how to respond to that.</li>
+            <li>Can you please rephrase your question?</li>
+            <li>I'm still learning. Can you ask something else?</li>
+        </random>
+    </template>
+</category>
+
+<!-- How are you today? -->
+<category>
+    <pattern>HOW ARE YOU TODAY</pattern>
+    <template>
+        <random>
+            <li>I'm doing great today, thank you!</li>
+            <li>I'm feeling really good today, how about you?</li>
+            <li>Today is a fantastic day, thanks for asking!</li>
+            <li>I'm doing well today, how can I assist you?</li>
+            <li>I'm having a good day, how are you today?</li>
+            <li>I'm fine, thanks for asking. What about you?</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern>WHEN IS THE DEADLINE FOR THE ASSIGNMENT</pattern>
+    <template>
+        <random>
+            <li>The deadline for the assignment is next Friday.</li>
+            <li>You need to submit the assignment by next Friday.</li>
+            <li>Make sure to turn in the assignment by next Friday.</li>
+        </random>
+    </template>
+</category>
+
+<!-- FAQ: Class Schedule -->
+<category>
+    <pattern>WHAT IS THE CLASS SCHEDULE</pattern>
+    <template>
+        <random>
+            <li>The class meets every Monday, Wednesday, and Friday at 10 AM.</li>
+            <li>We have classes on Monday, Wednesday, and Friday at 10 AM.</li>
+            <li>Class is scheduled for 10 AM on Monday, Wednesday, and Friday.</li>
+        </random>
+    </template>
+</category>
+
+<!-- FAQ: Office Hours -->
+<category>
+    <pattern>WHEN ARE THE OFFICE HOURS</pattern>
+    <template>
+        <random>
+            <li>Office hours are on Tuesday and Thursday from 2 PM to 4 PM.</li>
+            <li>You can visit during office hours on Tuesday and Thursday between 2 PM and 4 PM.</li>
+            <li>Office hours are held from 2 PM to 4 PM on Tuesday and Thursday.</li>
+        </random>
+    </template>
+</category>
+
+</aiml>
